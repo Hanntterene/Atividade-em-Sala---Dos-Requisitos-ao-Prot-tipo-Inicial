@@ -1,7 +1,8 @@
 Mapa de Vagas é um prototipo Tkinter para estacionamento do campus.
-Requisito 1: apos o login, exibe um mapa com vagas livres e ocupadas.
-Requisito 2: identifica vagas restritas para funcionarios em cinza.
-Requisito 3: permite cadastro com RA, senha e ate duas placas.
+Requisito 1 - Visualização do Mapa de Vagas
+Requisito 2 - permite cadastro com RA, senha e ate duas placas.
+requisito 3 - cadastro para servidores, com o mapa diferente dos alunos
+
 O login usa RA e senha e encaminha o usuario para o mapa.
 O ponto de entrada unico é main.py.
 Para executar, use Python e rode: python main.py
