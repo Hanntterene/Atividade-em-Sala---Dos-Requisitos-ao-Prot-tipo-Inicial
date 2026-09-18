@@ -1,0 +1,46 @@
+Atividade em Sala - Do Cliente para Requisitos Estruturados
+Lohanna da Silva Monteiro
+vou usar para definir os requisitos HU
+
+Requisito 1 - Visualização do Mapa de Vagas
+frase verificável:”é muito difícil saber onde há vagas disponíveis”
+"Como aluno/funcionário do campus, eu quero localizar uma vaga no estacionamento para
+não perder tempo procurando vaga"
+
+- após fazer o login é mostrado um mapa do estacionamento
+- no mapa as vagas em verde são as livre e as vagas em vermelho são as ocupadas
+
+requisito 2
+frase verificável: “outro problema é que os alunos às vezes estacionam em vagas
+reservadas para funcionários…”
+"Como [adm do curso], eu quero que os alunos não parem em vagas de funcionário para
+essas vagas continuem reservadas aos servidores"
+
+- mostrar, para os alunos, como ocupadas ou indisponíveis (vermelho ou cinza) as
+  vagas restritas para funcionários.
+
+Requisito 3 - Acesso simples e cadastro de veículos
+frase verificável: “o aplicativo não deve ser complicado. Os alunos não usaram se demorar
+muito para abrir ou se tiverem que fazer login toda vez”
+"Como aluno/funcionário do campus, eu quero que o aplicativo seja de fácil/uso acesso para
+não bater o carro na hora de uso"
+
+- login feito com RA e senha
+- no cadastro podem ser colocadas até duas placas
+- a opção de manter o login salvo é apresentada na tela
+  requisito 4
+
+frase verificável: “a equipe de segurança mencionou que gostaria de algo que ajudasse a
+identificar veículos não autorizados”
+”como segurança eu quero poder identificar veículos não autorizados para melhorar a
+segurança”
+
+- para os seguranças liberar acesso às placas de alunos e funcionários
+  perguntas para o cliente:
+  seria possível colocar sensores e melhorar o wifi do estacionamento com roteadores?
+  autoavaliação: Eu queria ter usado ia para organizar melhor meu documento, queria ter
+  escrito melhor os requisitos e escrito melhor as HU queria ter pensado em como seria
+  melhor para solucionar o problema de “ou reportar vagas manualmente ou usar sensores”
+  queria ter feito melhor o email para o cliente pontuado melhor as omissões ambiguidades e
+  conflitos.
+  mas pelo menos acho que na parte de requisitos do aplicativo não ficou tão ruim…
