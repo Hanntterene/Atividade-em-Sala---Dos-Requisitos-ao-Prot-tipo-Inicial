@@ -4,5 +4,5 @@ Requisito 2: identifica vagas restritas para funcionarios em cinza.
 Requisito 3: permite cadastro com RA, senha e ate duas placas.
 O login usa RA e senha e encaminha o usuario para o mapa.
 O ponto de entrada unico é main.py.
-Para executar, use Python 3 e rode: python main.py
+Para executar, use Python e rode: python main.py
 Cadastre um usuario na tela, entre com RA e senha e consulte as vagas.

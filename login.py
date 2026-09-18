@@ -10,7 +10,7 @@ def abrir_login(apos_login=None):
 	usuarios = {}
 	janela = tk.Tk()
 	janela.title("Mapa de Vagas - Login")
-	janela.geometry("420x360")
+	janela.geometry("420x500")
 	janela.resizable(False, False)
 	janela.configure(bg="#eef3f7")
 
@@ -20,6 +20,7 @@ def abrir_login(apos_login=None):
 	estilo.configure("Subtitulo.TLabel", background="#176b87", foreground="#d9f1f7", font=("Segoe UI", 10))
 	estilo.configure("Campo.TLabel", background="white", foreground="#243746", font=("Segoe UI", 10, "bold"))
 	estilo.configure("Entrar.TButton", background="#176b87", foreground="white", font=("Segoe UI", 10, "bold"), padding=8)
+	estilo.configure("Cadastro.TButton", background="white", foreground="#176b87", font=("Segoe UI", 10, "bold"), padding=8)
 
 	cabecalho = tk.Frame(janela, bg="#176b87", height=120)
 	cabecalho.pack(fill="x")
@@ -102,7 +103,7 @@ def abrir_login(apos_login=None):
 		ttk.Button(formulario, text="SALVAR CADASTRO", style="Entrar.TButton", command=salvar_cadastro).pack(fill="x", pady=(4, 0))
 
 	ttk.Button(cartao, text="ENTRAR", style="Entrar.TButton", command=validar_login).pack(fill="x")
-	ttk.Button(cartao, text="Ainda não tenho cadastro", command=abrir_cadastro).pack(pady=(8, 0))
+	ttk.Button(cartao, text="NÃO POSSUO CADASTRO", style="Cadastro.TButton", command=abrir_cadastro).pack(fill="x", pady=(8, 0))
 	ra_entry.focus()
 	janela.bind("<Return>", lambda evento: validar_login())
 	janela.mainloop()
