@@ -1,9 +1,15 @@
 Mapa de Vagas é um prototipo Tkinter para estacionamento do campus.
 Requisito 1 - Visualização do Mapa de Vagas
-Requisito 2 - permite cadastro com RA, senha e ate duas placas.
-requisito 3 - cadastro para servidores, com o mapa diferente dos alunos
+Requisito 2 - login com RA, senha e ate duas placas.
+requisito 3 - login para servidores, com o mapa diferente dos alunos (não feito)
 
 O login usa RA e senha e encaminha o usuario para o mapa.
 O ponto de entrada unico é main.py.
 Para executar, use Python e rode: python main.py
 Cadastre um usuario na tela, entre com RA e senha e consulte as vagas.
+
+============================================================================
+
+Não consegui fazer o requisito 3 por causa do tempo
+notei que meus requisitos da aula passada estão tão mal escritos que até usando ia para programar mais rapido a ia fez tudo COMPLETAMENTE ERRADO, então perdi o tempo corrigindo ela e voltando para conferir os seus erros, ainda sim tem muita coisa faltando no meu codigo final.
+achei dificil programar o segundo segundo requisito pois:"login com RA, senha e ate duas placas." não especificou a parte do cadastro e eu tive que codar depois já que foi um requisito mal escrito
